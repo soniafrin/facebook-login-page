@@ -1,0 +1,6 @@
+@media screen and (max-width: 980) { 
+    #right-side {
+        float: right;
+        margin-top: 910px;
+    }
+}

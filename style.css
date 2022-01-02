@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+background-color: #F0F2F5;
+height: 650px;
+position: relative;
+}
+
+#left-side {
+margin-left: 150px;
+margin-top: 180px;
+position: absolute;
+}
+
+#left-side img {
+    width: 300px;
+    height: 106px;
+}
+
+#left-side p {
+    font-size: 27px;
+    line-height: 28px;
+    width: 500px;
+    margin-left: 27px;
+    margin-top: -8px;
+    opacity:97%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+#right-side {
+    background-color: white;
+    width: 390px;
+    height: 340px;
+    border-radius: 10px;
+    float: right;
+    margin: 140px 210px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+#mail {
+    font-size: 17px;
+    width: 325px;
+    padding: 17px;
+    margin: 16px 16px 0px;
+    border: 1px solid #dddfe2;
+    border-radius: 7px;
+}
+
+   
+
+
+#password {
+    font-size: 17px;
+    width: 325px;
+    padding: 17px;
+    margin: 10px 16px 0px;
+    border: 1px solid #dddfe2;
+    border-radius: 7px;
+}
+
+#mail:hover {
+    border: 1px solid red;
+}
+
+#log-in {
+    border: 1px solid #166FE5;
+    border-radius: 5px;
+    background-color: #166FE5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 360px;
+    padding: 12px;
+    margin: 10px 16px;
+}
+
+#forgotten {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #166FE5;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 4px 0px;
+}
+
+hr {
+    margin: 0px;
+    border-bottom: 10px black;
+    margin: 20px 15px 0px;
+    opacity: 50%;
+}
+
+#create-new-account {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    width: 190px;
+    padding: 13px 0px;
+    margin: 28px 95px;
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    border-radius: 6px;
+}
+#create-page {
+    font-size: 14px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    margin: 30px 0px 20px 50px;
+    white-space: nowrap;
+}
+#create-page a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
